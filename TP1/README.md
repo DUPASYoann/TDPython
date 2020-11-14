@@ -8,56 +8,58 @@
 
 > Console :
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 2
-> Impossible d'écrire, nom du fichier vide
+>     2
+> 
+>     Impossible d'écrire, nom du fichier vide
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 1
+>     1
 > Entrez le nom du fichier :
->> test
+>     test
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 4
+>     4
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 2
+>     2
 > Votre texte : 
->> Ceci est un test
+>     Ceci est un test
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 3
-> Ceci est un test
+>     3
 >
+>     Ceci est un test
+>    
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 4
+>     4
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 2
+>     2
 > Votre texte : 
->> Ceci est un autre test
+>     Ceci est un autre test
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 2
+>     2
 > Votre texte : 
->> Ceci est un ajout de texte
+>     Ceci est un ajout de texte
 >1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 3
-> Ceci est un autre test
-> Ceci est un ajout de texte
+>     3
+>     Ceci est un autre test
+>     Ceci est un ajout de texte
 >
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 4
+>     4
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 3
+>     3
 > 
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
->> 9
+>     9
 > 
 
 ## 3. 	- Concevoir une classe Date (avec redéfinition (surcharge) de == ( __eq__ ) et de < ( __lt__ )) ;
 
 **Test:**
-> if __name__ == "__main__":
->     date1 = Date(20, 4, 2020)
->     date2 = Date(6, 9, 2020)
+>     if __name__ == "__main__":
+>         date1 = Date(20, 4, 2020)
+>         date2 = Date(6, 9, 2020)
 > 
->     print(date1 == date2)
->     print(date1 < date2)
->     print(date2 < date1)
+>         print(date1 == date2)
+>         print(date1 < date2)
+>         print(date2 < date1)
 
 **Console:**
 > False
@@ -71,19 +73,19 @@
 >     if __name__ == '__main__':
 > 
 >         etudiant1 = Etudiant("Paul", "Dupont", Date(22, 2, 1998))
->     print("âge de l'étudiant Paul Dupont né le 22/02/1998")
->     print(etudiant1.age)
->     print("")
+>         print("âge de l'étudiant Paul Dupont né le 22/02/1998")
+>         print(etudiant1.age)
+>         print("")
 > 
->     etudiant2 = Etudiant("Michel", "Martin", Date(8, 8, 2000))
->     print("adresse étudiante de Michel Martin")
->     print(etudiant2.adresse_lec)
->     print("")
+>         etudiant2 = Etudiant("Michel", "Martin", Date(8, 8, 2000))
+>         print("adresse étudiante de Michel Martin")
+>         print(etudiant2.adresse_lec)
+>         print("")
 > 
->     print("liste des étudiant depuis le ficheetu.csv")
->     for student in fiche_extractor("../fichetu.csv"):
->         print("nom de l'étudiant : " + student.nom + "\tdate d'anniversaire : " + student.anniversaire.__str__() +
->               "\tâge : " + student.age.__str__())
+>         print("liste des étudiant depuis le ficheetu.csv")
+>         for student in fiche_extractor("../fichetu.csv"):
+>             print("nom de l'étudiant : " + student.nom + "\tdate d'anniversaire : " + student.anniversaire.__str__() +
+>                   "\tâge : " + student.age.__str__())
 
 **Console:**			  
 > âge de l'étudiant Paul Dupont né le 22/02/1998
