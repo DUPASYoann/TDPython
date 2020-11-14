@@ -37,10 +37,13 @@
 > Votre texte : 
 >     Ceci est un ajout de texte
 >1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
 >     3
->     Ceci est un autre test
->     Ceci est un ajout de texte
 >
+>     Ceci est un autre test
+>      
+>     Ceci est un ajout de texte
+
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
 >     4
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
@@ -63,7 +66,9 @@
 
 **Console:**
 > False
+>
 > True
+>
 > False
 
 ## 3.	- Concevoir une classe Etudiant (avec une méthode adresselec qui fabrique l'adresse électronique prenom.nom@etu.univ-tours.fr et une méthode âge) ; 
