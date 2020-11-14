@@ -68,7 +68,7 @@
 ##    - Lire le fichier fichetu.csv et constituer une liste d'objets Etudiant.
 
 **Test:**
-> if __name__ == '__main__':
+>   if __name__ == '__main__':
 > 
 >     etudiant1 = Etudiant("Paul", "Dupont", Date(22, 2, 1998))
 >     print("âge de l'étudiant Paul Dupont né le 22/02/1998")
