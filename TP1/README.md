@@ -70,7 +70,7 @@
 **Test:**
 >     if __name__ == '__main__':
 > 
->     etudiant1 = Etudiant("Paul", "Dupont", Date(22, 2, 1998))
+>         etudiant1 = Etudiant("Paul", "Dupont", Date(22, 2, 1998))
 >     print("âge de l'étudiant Paul Dupont né le 22/02/1998")
 >     print(etudiant1.age)
 >     print("")
