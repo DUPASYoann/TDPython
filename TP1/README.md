@@ -20,41 +20,67 @@
 >     1
      
     Entrez le nom du fichier :
+    
 >     test
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     4
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     2
-> Votre texte : 
+
+    Votre texte : 
+    
 >     Ceci est un test
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     3
->     Ceci est un test
->    
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    Ceci est un test
+    
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     4
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     2
-> Votre texte : 
+
+    Votre texte :
+    
 >     Ceci est un autre test
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     2
-> Votre texte : 
+
+    Votre texte : 
+    
 >     Ceci est un ajout de texte
->1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
 
 >     3
->     Ceci est un autre test
->     Ceci est un ajout de texte
 
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    Ceci est un autre test
+    Ceci est un ajout de texte
+    
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     4
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     3
-> 
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+    
 >     9
-> 
+
+    
 
 ## 3. 	- Concevoir une classe Date (avec redéfinition (surcharge) de == ( __eq__ ) et de < ( __lt__ )) ;
 
