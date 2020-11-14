@@ -2,15 +2,18 @@
 
 ## 1. Afficher « Bonjour le monde ! »
 **Console :**
-> Bonjour le monde !
+
+    Bonjour le monde !
  
 ## 2. En mode console (sans fenêtre), proposez un petit menu : 1. Choisir un nom de fichier, 2. Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme. Vous écrirez les fonctions associées aux choix.
 
 **Console :**
-> 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
 
-     2
-> Impossible d'écrire, nom du fichier vide
+    1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
+
+>     2
+
+    Impossible d'écrire, nom du fichier vide
 
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
 
