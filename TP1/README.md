@@ -8,7 +8,6 @@
 
 **Console :**
 > 1. Choisir un nom de fichier, 2.Ajouter un texte (que vous demanderez à l’utilisateur), 3. Afficher le fichier complet, 4. Vider le fichier, 9. Quitter le programme.
-
 >     2
 > Impossible d'écrire, nom du fichier vide
 
