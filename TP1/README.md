@@ -85,6 +85,7 @@
 ## 3. 	- Concevoir une classe Date (avec redéfinition (surcharge) de == ( __eq__ ) et de < ( __lt__ )) ;
 
 **Test:**
+
 >     if __name__ == "__main__":
 >         date1 = Date(20, 4, 2020)
 >         date2 = Date(6, 9, 2020)
@@ -103,6 +104,7 @@
 ##    - Lire le fichier fichetu.csv et constituer une liste d'objets Etudiant.
 
 **Test:**
+
 >     if __name__ == '__main__':
 > 
 >         etudiant1 = Etudiant("Paul", "Dupont", Date(22, 2, 1998))
