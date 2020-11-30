@@ -16,7 +16,7 @@ def fonction2(param_texte_fonction):
             print("Votre texte : ")
             param_texte_fonction["Texte"] = input()
             objet_fichier.write(param_texte_fonction["Texte"] + "\n")
-
+9
 
 # Afficher le fichier complet
 def fonction3(param_texte_fonction):

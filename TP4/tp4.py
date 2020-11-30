@@ -16,6 +16,7 @@ if __name__ == "__main__":
 
     # question 1
     _liste = generer_nombre_random()
+    print(_liste)
 
     # question 2
     plt.plot(generer_nombre_random())

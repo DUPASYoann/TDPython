@@ -25,9 +25,6 @@ def prepare_dataset(list_dataframe, h, limit=-1):
     all_features_raw = np.array(all_features_raw)
     all_target = np.array(all_target)
 
-    print(np.shape(all_features_raw))
-    print(np.shape(all_target))
-
     all_features_raw = np.reshape(all_features_raw, (all_features_raw.shape[1], all_features_raw.shape[0]))
     all_target = np.reshape(all_target, (all_target.shape[1], all_target.shape[0]))
 
@@ -46,7 +43,6 @@ def prepare_dataset(list_dataframe, h, limit=-1):
 
     all_features = np.array(all_features)
     all_target = all_target[h+1:limit]
-    print(np.shape(all_target))
 
     return all_features, all_target
 
@@ -95,23 +91,24 @@ def compile_copie_carbone(dataframe):
 
 if __name__ == "__main__":
 
-    # Question 1
-    _dataframe = pd.read_excel("DAT_XLSX_EURUSD_M1_2018.xlsx", header=None)
-    print("READING COMPLET")
-    plt.plot(_dataframe[0], _dataframe[4])
-    plt.show()
-
-    # Question 2
-    compile_copie_carbone(_dataframe)
+    # # Question 1
+    # _dataframe = pd.read_excel("DAT_XLSX_EURUSD_M1_2018.xlsx", header=None)
+    # print("READING COMPLET")
+    # plt.plot(_dataframe[0], _dataframe[4])
+    # plt.show()
+    #
+    # # Question 2
+    # compile_copie_carbone(_dataframe)
 
     # Question 4
     _list_dataframe = [pd.read_excel("DAT_XLSX_EURUSD_M1_2019.xlsx", header=None)]
     print(_list_dataframe[0].dtypes)
-    # _list_dataframe.append(pd.read_excel("DAT_XLSX_EURUSD_M1_2019.xlsx", header=None))
+    # _list_dataframe.append(pd.read_excel("DAT_XLSX_EURUSD_M1_2018.xlsx", header=None))
+    # une seul suffit
 
     _batch_size = 16
     _epochs = 3
 
     _all_features, _all_target = prepare_dataset(_list_dataframe, 120)
-    _model = build_model(_all_features, _all_target, _batch_size, _epochs)
-    print(_result)
+    _model_cnn = build_model_cnn(_all_features, _all_target, _batch_size, _epochs)
+    _model_lstm = build_model_LSTM(_all_features, _all_target, _batch_size, _epochs)
