@@ -48,7 +48,7 @@
 **Rendu sur navigateur:**    
 ![alt text](Q2.png "Rendu sur navigateur")
 
-## 2. Utiliser cette page pour stocker ou récupérer des informations envoyées par le web sur le serveur
+## 3. Utiliser cette page pour stocker ou récupérer des informations envoyées par le web sur le serveur
 
 **index.py**
 
@@ -115,3 +115,4 @@
 **Vérification de l'ajout sur la page "index.py" :**
 
 ![alt text](Q33.png "Vérification de l'ajout")
+
