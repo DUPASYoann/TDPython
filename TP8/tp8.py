@@ -1,39 +1,22 @@
-import random
-import sys
-from threading import Thread, RLock
-import time
+import threading
 
-verrou = RLock()
+class SummingThread(threading.Thread):
+     def __init__(self,min,max):
+         super(SummingThread, self).__init__()
+         self.min=min
+         self.max=max
 
-class Afficheur(Thread):
 
-    """Thread chargé simplement d'afficher un mot dans la console."""
+     def run(self):
+         while self.max>self.min :
+             self.max-=1
 
-    def __init__(self, mot):
-        Thread.__init__(self)
-        self.mot = mot
 
-    def run(self):
-        """Code à exécuter pendant l'exécution du thread."""
-        i = 0
-        while i < 5:
-            with verrou:
-                for lettre in self.mot:
-                    sys.stdout.write(lettre)
-                    sys.stdout.flush()
-                    attente = 0.2
-                    attente += random.randint(1, 60) / 100
-                    time.sleep(attente)
-            i += 1
-
-# Création des threads
-thread_1 = Afficheur("canard")
-thread_2 = Afficheur("TORTUE")
-
-# Lancement des threads
-thread_1.start()
-thread_2.start()
-
-# Attend que les threads se terminent
-thread_1.join()
-thread_2.join()
+thread1 = SummingThread(0,1E7/2)
+thread2 = SummingThread(0,1E7/2)
+thread1.start()
+thread2.start()
+thread1.join()
+thread2.join()
+result = thread1.max + thread2.max
+print (result)
