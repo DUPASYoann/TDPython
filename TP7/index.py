@@ -1,10 +1,30 @@
 #!/usr/bin/env python
 import cgi
 import csv
+import sqlite3
 
-def index() :
+from requests import Session
+
+def log():
+    obSess = Session()
+    form = cgi.FieldStorage()
+    obSess.pseudo = form.getvalue("pseudo")
+    obSess.mdp = form.getvalue("mdp")
+    db = sqlite3.connect("dbsitetest")
+    cursor = db.cursor()
+    cursor.execute('''SELECT Pseudo, MDP FROM Comptes ''')
+    for row in cursor:
+         if obSess.pseudo == row[0] and  obSess.mdp==row[1]:
+             return True
+    return False
+
+
+print("Content-type: text/html; charset=utf-8\n")
+
+if not log() :
+    print("""<h1>Accès impossible, vous n'etes pas connectés</h1>""")
+else :
     html = ""
-    html = html +"Content-type: text/html; charset=utf-8\n"
     html = html + """<!DOCTYPE html>
     <head>
      <title>TP7</title>
@@ -28,4 +48,5 @@ def index() :
     </body>
     </html>
     """
-    return html
+    print(html)
+
