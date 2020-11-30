@@ -40,3 +40,39 @@ Résultat CNN :
     Base de validation :
     val_loss: 0.4380 - val_binary_accuracy: 0.5620
 
+## Utiliser keras pour mettre en oeuvre un LSTM.
+
+Base d'apprentissage :
+
+    Input : Tableau d'exemple des h (ici 120) minute passé comprenant les 4 caractéristiques : cours en début de minute, max, min et fin de minute.
+    Output : 1 si le cours debut de minute inférieur au cours de fin de minute
+
+standardisation et normalisation des données par jeu de données avec sklearn
+
+Base de validation :
+
+    20% de la base d'apprentissage
+
+Fonction de perte :
+
+    Erreur quadratique moyenne
+
+Optimiseur :
+
+    Adam
+
+Metriques :
+
+    Binary_accuracy
+
+Résultat LSTM :
+
+    Base d'apprentissage :
+    loss: 0.2472 - binary_accuracy: 0.5550 
+    Base de validation :
+    val_loss: 0.2446 - val_binary_accuracy: 0.5738
+    
+## NOTE
+
+Les résultats sont mauvais car les prédictions sont surement que des 0 ou des 1.
+Il faut surement revoir la vérité terrain utilisé ainsi que la complexité du model.

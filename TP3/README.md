@@ -29,9 +29,6 @@ fichier.txt :
 Ensuite le fichier est chiffré dans le dossier fichier_chiffrer:
 
 encrypted.bin :
-
-     Kt�
-     � �Z�����(K�F\r���w 8f<��+�,�x���G
      
 On peut déchiffrer le fichier en ayant connaissance du login et du mot de passe :
 
