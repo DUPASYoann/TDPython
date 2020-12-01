@@ -10,6 +10,6 @@ if __name__ == "__main__":
     _epochs = 10
 
     _all_features, _all_target = prepare_dataset(_list_dataframe, 120)
-    _model = build_model(_all_features, _all_target, _batch_size, _epochs)
+    _model = build_model_cnn(_all_features, _all_target, _batch_size, _epochs)
     _result = _model.predict(_all_features[::10000])
     print(_result)

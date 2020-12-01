@@ -71,7 +71,7 @@ def build_model_cnn(train_x, train_y, batch_size, epochs):
     model.add(tf.keras.layers.Activation('relu'))
     model.add(Flatten())
     model.add(Dense(50))
-    model.add(Dense(n_outputs, activation="relu"))
+    model.add(Dense(n_outputs, activation="sigmoid"))
     model.compile(loss='mse', optimizer="adam", metrics=['binary_accuracy'],)
     # fit network
     model.fit(train_x, train_y, epochs=epochs, batch_size=batch_size, verbose=1, validation_split=0.8)
